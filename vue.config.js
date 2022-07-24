@@ -17,7 +17,7 @@ module.exports = defineConfig({
     // 代理IP配置
     proxy: {
       "/mooriarty": {
-        target: `http://${ip}:9900`
+        target: `http://${ip}:9000`
       }
     },
     headers: {
